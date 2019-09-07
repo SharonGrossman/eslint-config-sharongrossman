@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-sharongrossman",
   "version": "0.0.0",
-  "main": "src/index.js",
+  "main": "src/index.json",
   "description": "ESLint config",
   "repository": "https://github.com/SharonGrossman/eslint-config-sharongrossman.git",
   "author": "Sharon Grossman <sharong1337@gmail.com>",
