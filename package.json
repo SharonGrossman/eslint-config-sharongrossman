@@ -15,7 +15,7 @@
     "react"
   ],
   "scripts": {
-    "test": ""
+    "test": "echo \"No tests yet\""
   },
   "dependencies": {
     "babel-eslint": "^10.0.3",
