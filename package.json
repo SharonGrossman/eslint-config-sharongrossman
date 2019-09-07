@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-sharongrossman",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "description": "ESLint config",
+  "repository": "https://github.com/SharonGrossman/eslint-config-sharongrossman.git",
+  "author": "Sharon Grossman <sharong1337@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "es6",
+    "codestyle",
+    "react"
+  ],
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-unicorn": "^10.0.0",
+    "eslint-plugin-lodash": "^5.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.3.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "husky": "^3.0.4"
+  }
+}
