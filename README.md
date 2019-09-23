@@ -1,3 +1,4 @@
+<div align="center">
 # eslint-config-sharongrossman :straight_ruler:
 ![BuildStatus](https://travis-ci.org/SharonGrossman/eslint-config-sharongrossman.svg?branch=master)
 
@@ -26,19 +27,16 @@ $ yarn add --dev eslint-plugin-react
 
 In your eslintrc.json file
 ```json
-{
   "extends": ["sharongrossman"]
-}
 ```
 
 React config
 ```json
-{
   "extends": ["sharongrossman/react"]
-}
 ```
 
 
 ## License
 
 [MIT](LICENSE) © [Sharon Grossman](https://github.com/sharongrossman)
+</div>
