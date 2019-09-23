@@ -20,9 +20,9 @@
   "dependencies": {
     "babel-eslint": "^10.0.3",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-lodash": "^5.1.0",
+    "eslint-plugin-lodash": "^6.0.0",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-unicorn": "^10.0.0"
+    "eslint-plugin-unicorn": "^11.0.2"
   },
   "peerDependencies": {
     "eslint": "^6.3.0"
