@@ -4,6 +4,9 @@
 ![BuildStatus](https://travis-ci.org/SharonGrossman/eslint-config-sharongrossman.svg?branch=master)
 
 ## Description
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/SharonGrossman/eslint-config-sharongrossman.svg)](https://greenkeeper.io/)
+
 ESLint shareable configuration
 
 ## Installation
