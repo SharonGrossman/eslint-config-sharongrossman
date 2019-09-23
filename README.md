@@ -1,11 +1,10 @@
 <div align="center">
 <h1> eslint-config-sharongrossman :straight_ruler: </h1>
 
-![BuildStatus](https://travis-ci.org/SharonGrossman/eslint-config-sharongrossman.svg?branch=master)
+![BuildStatus](https://travis-ci.org/SharonGrossman/eslint-config-sharongrossman.svg?branch=master) 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SharonGrossman/eslint-config-sharongrossman.svg)](https://greenkeeper.io/)
 
 ## Description
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/SharonGrossman/eslint-config-sharongrossman.svg)](https://greenkeeper.io/)
 
 ESLint shareable configuration
 
