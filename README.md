@@ -1,5 +1,6 @@
 <div align="center">
-# eslint-config-sharongrossman :straight_ruler:
+<h1> eslint-config-sharongrossman :straight_ruler: </h1>
+
 ![BuildStatus](https://travis-ci.org/SharonGrossman/eslint-config-sharongrossman.svg?branch=master)
 
 ## Description
