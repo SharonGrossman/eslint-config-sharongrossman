@@ -397,6 +397,16 @@ abbrev@1, abbrev@~1.1.1:
   resolved "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
+acorn-jsx@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.0.2.tgz#84b68ea44b373c4f8686023a551f61a21b7c4a4f"
+  integrity sha512-tiNTrP1MP0QrChmD2DdupCr6HWSFeKVw5d/dHTu4Y7rkAkRhU/Dt7dphAfIUyxtHpl/eBVip5uTNSpQJHylpAw==
+
+acorn@^7.0.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
+  integrity sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
+
 agent-base@4, agent-base@^4.3.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/agent-base/-/agent-base-4.3.0.tgz#8165f01c436009bccad0b1d122f05ed770efc6ee"
@@ -1448,9 +1458,10 @@ eslint-plugin-import@^2.18.2:
     read-pkg-up "^2.0.0"
     resolve "^1.11.0"
 
-eslint-plugin-lodash@^5.1.0:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/eslint-plugin-lodash/-/eslint-plugin-lodash-5.1.1.tgz#3ad32ab8b4e7c36794a76bfe7f1117ef80536032"
+eslint-plugin-lodash@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-lodash/-/eslint-plugin-lodash-6.0.0.tgz#70fa487ab632e62627ecf01ad3e85c228e3ab9d3"
+  integrity sha512-iuxToisjIYAJdxWtW8OamFyc3yAsGCjU5WokvuBfTc/k5XdWOp9fAmzw+aFjj520/QXspCc8//xJpqkhYUj4qw==
   dependencies:
     lodash "^4.17.15"
 
@@ -1468,26 +1479,49 @@ eslint-plugin-react@^7.14.3:
     prop-types "^15.7.2"
     resolve "^1.10.1"
 
-eslint-plugin-unicorn@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-unicorn/-/eslint-plugin-unicorn-10.0.0.tgz#f3815a759f76dd490dbb5a560e3805e0556aff17"
+eslint-plugin-unicorn@^12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-12.0.0.tgz#7db35bfe732175971b5d3899c1ec1426e1cb5c05"
+  integrity sha512-Ku57d5Waqx1n289tS0zDxfjkIdYMzPc1wr27IjxArC24A3fvbY05dqM6sjpxZYNXh1ThT5X6VBAE1FB3gRP6Bg==
   dependencies:
+    ci-info "^2.0.0"
     clean-regexp "^1.0.0"
     eslint-ast-utils "^1.1.0"
+    eslint-template-visitor "^1.0.0"
     import-modules "^1.1.0"
     lodash.camelcase "^4.3.0"
-    lodash.defaultsdeep "^4.6.0"
+    lodash.defaultsdeep "^4.6.1"
     lodash.kebabcase "^4.1.1"
     lodash.snakecase "^4.1.1"
     lodash.topairs "^4.3.0"
     lodash.upperfirst "^4.3.1"
-    regexpp "^2.0.1"
+    read-pkg-up "^6.0.0"
+    regexpp "^3.0.0"
     reserved-words "^0.1.2"
     safe-regex "^2.0.2"
+    semver "^6.3.0"
 
-eslint-visitor-keys@^1.0.0:
+eslint-template-visitor@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-template-visitor/-/eslint-template-visitor-1.0.0.tgz#f67daedda2916df890189df2e8532f711769950a"
+  integrity sha512-hYf2FFoe0eNGQZbUMtYgRXPFPR9nnMm9qV+H1njO094fFks6QILzJKpAXbjwSJZ+XJw8X5gt/9WS2z35ou7/kQ==
+  dependencies:
+    eslint-visitor-keys "^1.1.0"
+    espree "^6.1.1"
+    multimap "^1.0.2"
+
+eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
+
+espree@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/espree/-/espree-6.1.1.tgz#7f80e5f7257fc47db450022d723e356daeb1e5de"
+  integrity sha512-EYbr8XZUhWbYCqQRW0duU5LxzL5bETN6AjKBGy1302qqzPaCH10QbRg3Wvco79Z8x9WbiE8HYB4e75xl6qUYvQ==
+  dependencies:
+    acorn "^7.0.0"
+    acorn-jsx "^5.0.2"
+    eslint-visitor-keys "^1.1.0"
 
 esprima@^4.0.0, esprima@~4.0.0:
   version "4.0.1"
@@ -2622,9 +2656,10 @@ lodash.clonedeep@^4.5.0, lodash.clonedeep@~4.5.0:
   resolved "https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
-lodash.defaultsdeep@^4.6.0:
+lodash.defaultsdeep@^4.6.1:
   version "4.6.1"
-  resolved "https://registry.npmjs.org/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
+  resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
+  integrity sha512-3j8wdDzYuWO3lM3Reg03MuQR957t287Rpcxp1njpEa8oDrikb+FwGdW3n+FELh/A6qib6yPit0j/pv9G/yeAqA==
 
 lodash.escaperegexp@^4.1.2:
   version "4.1.2"
@@ -2980,6 +3015,11 @@ ms@2.0.0:
 ms@^2.0.0, ms@^2.1.1:
   version "2.1.2"
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+
+multimap@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/multimap/-/multimap-1.0.2.tgz#6aa76fc3233905ba948bbe4c74dc2c3a0356eb36"
+  integrity sha1-aqdvwyM5BbqUi75MdNwsOgNW6zY=
 
 mute-stream@~0.0.4:
   version "0.0.8"
@@ -4009,9 +4049,10 @@ regexp-tree@~0.1.1:
   version "0.1.13"
   resolved "https://registry.npmjs.org/regexp-tree/-/regexp-tree-0.1.13.tgz#5b19ab9377edc68bc3679256840bb29afc158d7f"
 
-regexpp@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/regexpp/-/regexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
+regexpp@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.0.0.tgz#dd63982ee3300e67b41c1956f850aa680d9d330e"
+  integrity sha512-Z+hNr7RAVWxznLPuA7DIh8UNX1j9CDrUQxskw9IrBE1Dxue2lyXT+shqEIeLUjrokxIP8CMy1WkjgG3rTsd5/g==
 
 registry-auth-token@^3.0.1:
   version "3.4.0"
@@ -4218,9 +4259,9 @@ semver@6.1.1:
   version "6.1.1"
   resolved "https://registry.npmjs.org/semver/-/semver-6.1.1.tgz#53f53da9b30b2103cd4f15eab3a18ecbcb210c9b"
 
-semver@^6.0.0:
+semver@^6.0.0, semver@^6.3.0:
   version "6.3.0"
-  resolved "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
 semver@~5.3.0:
